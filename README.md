@@ -1,14 +1,12 @@
-# AAR
-
 #AAR#
 This cookbook will create a working version of the Awesome Appliance App running in vagrant.
 
 There are also tests that check for existence of Apache/Mysql/Git
 
 ##Pre-requisites##
-ChefDK
-Vagrant
-Virtualbox
+* ChefDK
+* Vagrant
+* Virtualbox
 
 #If you don't have Homebrew on osx
 ```
