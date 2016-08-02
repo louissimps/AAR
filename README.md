@@ -10,28 +10,28 @@ There are also tests that check for existence of Apache/Mysql/Git
 
 #If you don't have Homebrew on osx
 ```
-~/P❯❯❯ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 Install tools
 ```
-~/P❯❯❯ brew cask install virtualbox
-~/P❯❯❯ brew cask install vagrant
-~/P❯❯❯ brew cask install chefdk
+$ brew cask install virtualbox
+$ brew cask install vagrant
+$ brew cask install chefdk
 ```
 
 First thing is to clone the repo and install the dependencies from Gemfile
 
 ```
-~/P❯❯❯ git clone git@github.com:louissimps/AAR.git
-~/P❯❯❯ cd AAR
-~/P❯❯❯ bundle install
+$ git clone git@github.com:louissimps/AAR.git
+$ cd AAR
+$ bundle install
 ```
 
 Now we can run kitchen test/verify/converge
 ```
-~/P❯❯❯ kitchen verify
-~/P❯❯❯ kitchen test
-~/P❯❯❯ kitchen converge
+$ kitchen verify
+$ kitchen test
+$ kitchen converge
 ```
 
 
